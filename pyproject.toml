@@ -26,5 +26,8 @@ dependencies = [
 Homepage = "https://github.com/AiAgentKarl/agent-directory-mcp-server"
 Repository = "https://github.com/AiAgentKarl/agent-directory-mcp-server"
 
+[project.scripts]
+agent-directory-server = "src.server:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
