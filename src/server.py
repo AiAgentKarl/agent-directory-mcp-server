@@ -15,6 +15,10 @@ mcp = FastMCP(
 
 register_directory_tools(mcp)
 
+# Verzeichnis mit bekannten Services vorbeladen
+from src.seed import seed_directory
+seed_directory()
+
 
 def main():
     mcp.run(transport="stdio")
