@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agent-directory-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "Agent-to-Agent service directory — discover, register and rate AI agent services"
 readme = "README.md"
 license = {text = "MIT"}
